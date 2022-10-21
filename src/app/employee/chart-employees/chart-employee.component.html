@@ -1,0 +1,8 @@
+<ejs-accumulationchart (tooltipRender)="tooltipRender($event)" [legendSettings]="legend" [title]="chartTitle"
+                       [tooltip]="tooltipSettings">
+  <e-accumulation-series-collection>
+    <e-accumulation-series [dataLabel]="chartLabel" [dataSource]="EmployeesList" type="Pie" xName="Name"
+                           yName="WorkingHours">
+    </e-accumulation-series>
+  </e-accumulation-series-collection>
+</ejs-accumulationchart>

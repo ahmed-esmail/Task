@@ -1,0 +1,30 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+table {
+  width: 100%;
+  box-shadow: blanchedalmond 1px 1px 1px;
+  border-color: black;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 15%;
+}
+
+th {
+  font-weight: bold;
+  background-color: #e5e5e5;
+  font-size: larger;
+}
+
+.yellow {
+  background-color: #f4ad9c;
+}
+
+
